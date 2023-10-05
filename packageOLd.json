@@ -1,0 +1,12 @@
+{
+  "name": "svens-favorites",
+  "version": "1.0.0",
+  "description": "A website that displays my favorite media among albums, tv shows and movies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Movies","TV Shows","Albums","Artists","Media"],
+  "author": "Sven Emilsson",
+  "license": "ISC"
+}

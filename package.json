@@ -1,12 +1,18 @@
 {
-  "name": "svens-favorites",
+  "name": "handlebars-example",
   "version": "1.0.0",
-  "description": "A website that displays my favorite media among albums, tv shows and movies",
-  "main": "index.js",
+  "description": "Code for handlebars MVC (Model-View-Controller)",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["Movies","TV Shows","Albums","Artists","Media"],
-  "author": "Sven Emilsson",
-  "license": "ISC"
+  "keywords": [
+    "handlebars in Express."
+  ],
+  "author": "JL",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2"
+  }
 }
