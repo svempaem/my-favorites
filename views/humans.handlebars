@@ -3,7 +3,7 @@
         <h1>List of all persons</h1>
         {{#each listHumans}}
             <div>
-               - {{id}}: {{name}} 
+                <a href="/humans/{{id}}">- {{id}}: {{name}}</a>
             </div>
         {{/each}}
     </div>
